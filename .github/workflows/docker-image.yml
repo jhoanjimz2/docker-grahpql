@@ -35,7 +35,7 @@ jobs:
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
       run: |
-        docker push $DOCKER_USER/nest-graphql:0.0.2 .
+        docker push $DOCKER_USER/nest-graphql:0.0.2
 
 
 
